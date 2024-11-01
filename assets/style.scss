@@ -37,15 +37,15 @@ header {
     .navbar-toggler {
       border: none;
     }
-    padding: 25px 20px !important;
+   
     * {
       color: white !important;
     }
     .offcanvas {
       background-color: black;
-      width: 23% !important;
+      width: 30% !important;
       @media (max-width: 900px) {
-        width: 40% !important;
+        width: 50% !important;
       }
       @media (max-width: 460px) {
         width: 50% !important;
