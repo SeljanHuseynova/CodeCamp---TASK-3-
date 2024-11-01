@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+nav.add-bg-color {
+  background-color: #3d221d;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+}
+header nav {
+  padding: 25px 20px !important;
+}
+header nav .icons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+@media (max-width: 430px) {
+  header nav .icons {
+    display: none;
+  }
+}
+header nav .icons i {
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .navbar-toggler {
+  border: none;
+}
+header nav * {
+  color: white !important;
+}
+header nav .offcanvas {
+  background-color: black;
+  width: 23% !important;
+}
+@media (max-width: 900px) {
+  header nav .offcanvas {
+    width: 40% !important;
+  }
+}
+@media (max-width: 460px) {
+  header nav .offcanvas {
+    width: 50% !important;
+  }
+}
+header nav .show {
+  background-color: black !important;
+}
+header nav .btn-close {
+  opacity: 1;
+}
+header nav .btn-close i {
+  color: white;
+  font-size: 16px;
+}
+header .btn-carousel {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #ffc222 !important;
+  border-radius: 50%;
+}
+header .carousel-item {
+  max-width: 100%;
+}
+header .slide-content {
+  line-height: 50px;
+  color: #fece3d;
+}
+header .slide-content .btn:hover {
+  background-color: white !important;
+}
+header .slide-content h1 {
+  font-weight: 900;
+  font-size: 70px;
+}
+@media (max-width: 1031px) {
+  header .slide-content h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 967px) {
+  header .slide-content h1 {
+    font-size: 37px;
+  }
+}
+@media (max-width: 1031px) {
+  header .slide-content button {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 1031px) {
+  header .slide-content .fresh {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 967px) {
+  header .slide-content .fresh {
+    font-size: 34px !important;
+  }
+}
+header .slide-content .contact {
+  margin-top: 40px;
+  gap: 22px;
+}
+header .slide-content .contact .contact-number {
+  line-height: 20px;
+}
+header .slide-content .contact span {
+  font-size: 15px;
+}
+header .slide-content .contact p {
+  font-weight: 700;
+}
+header .slide-content .contact i {
+  color: white;
+  background-color: #00a149;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+header .slide-content span {
+  color: white;
+  font-size: 50px;
+}
+@media (max-width: 768px) {
+  header .carousel-inner .carousel .slide-content-container {
+    padding-top: 130px;
+  }
+}
+
+.menu {
+  border: none !important;
+  color: white;
+  border-radius: 30px;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid black;
+  height: 40vh;
+}
+.menu .btn {
+  width: 140px;
+}
+.menu .menu-content-container {
+  padding: 30px;
+}
+.menu img {
+  max-width: 100%;
+  position: absolute;
+  right: -50px;
+  top: 40px;
+}
+@media (max-width: 1400px) {
+  .menu img {
+    right: -100px;
+    top: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .menu img {
+    right: -150px;
+    top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .menu img {
+    right: -80px;
+    top: 30px;
+  }
+}
+
+.order-container p {
+  color: white;
+}
+.order-container p span {
+  color: #fece3d;
+  font-weight: 700;
+}
+.order-container .btn {
+  width: 230px;
+  font-size: 14px;
+}
+@media (max-width: 991px) {
+  .order-container .btn {
+    width: 100% !important;
+  }
+}
+.order-container .order {
+  background-color: #00a149;
+  height: 40vh;
+  border-radius: 30px;
+  padding: 30px;
+}
+@media (max-width: 767px) {
+  .order-container .order {
+    height: auto !important;
+  }
+}
+.order-container .order .btn-container {
+  text-align: center;
+}
+.order-container form {
+  width: 100%;
+}
+.order-container input {
+  background-color: #00a149;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(204, 255, 226, 0.5);
+  color: white;
+  padding: 12px 20px 12px 20px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #ffc222 !important;
+  width: 170px;
+  height: 50px;
+  font-weight: 700 !important;
+}
+
+.hot-fresh .card .card-content {
+  padding: 30px;
+}
+.hot-fresh .card .card-content h5 {
+  font-size: 15px;
+  font-weight: 800;
+}
+.hot-fresh .card .card-content p {
+  color: #808080;
+}
+.hot-fresh .card .card-content span {
+  color: #fece3d;
+  font-weight: 600;
+  font-size: 20px;
+}
+.hot-fresh .card .card-content .bottom-part i {
+  background-color: #fece3d;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hot-fresh .card .card-content .stars {
+  margin-bottom: 12px;
+}
+.hot-fresh .card .card-content .stars i {
+  color: #fece3d;
+}
+
+.our-menu {
+  background-image: url("https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_bg1.jpg");
+  height: auto;
+}
+@media (max-width: 401px) {
+  .our-menu .title {
+    text-align: center;
+  }
+}
+.our-menu .title p {
+  font-family: "Norican", cursive;
+  color: #fece3d;
+  font-size: 45px;
+  margin-bottom: -15px;
+}
+.our-menu .title h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: -15px;
+}
+.our-menu .our-menu-container {
+  height: auto;
+}
+@media (max-width: 450px) {
+  .our-menu .our-menu-container {
+    padding: 30px !important;
+  }
+}
+.our-menu .combo-content {
+  width: 100%;
+}
+.our-menu .combo-content .name-price {
+  border-bottom: 1px dotted #808080;
+}
+.our-menu .special-combos {
+  background-color: white;
+  padding: 35px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 405px) {
+  .our-menu .special-combos {
+    padding: 20px !important;
+  }
+}
+.our-menu .special-combos p {
+  color: #808080;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.our-menu .special-combos span {
+  font-family: "Norican", cursive;
+  font-size: 32px;
+}
+.our-menu .special-combos .combos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.our-menu .special-combos .combos .name-price h4 {
+  font-size: 16px;
+  font-weight: 800;
+}
+.our-menu .special-combos .combos .name-price p {
+  color: #fece3d;
+  font-size: 20px;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

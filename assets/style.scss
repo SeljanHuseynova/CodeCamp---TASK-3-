@@ -1,0 +1,342 @@
+// RESET-CSS
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+nav.add-bg-color {
+  background-color: #3d221d;
+}
+
+// HEADER
+header {
+  width: 100%;
+  height: 100%;
+
+  nav {
+    .icons {
+      @media (max-width:430px){
+        display: none;
+      }
+      i {
+        font-size: 16px;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .navbar-toggler {
+      border: none;
+    }
+    padding: 25px 20px !important;
+    * {
+      color: white !important;
+    }
+    .offcanvas {
+      background-color: black;
+      width: 23% !important;
+      @media (max-width: 900px) {
+        width: 40% !important;
+      }
+      @media (max-width: 460px) {
+        width: 50% !important;
+      }
+    }
+    .show {
+      background-color: black !important;
+    }
+    .btn-close {
+      opacity: 1;
+      i {
+        color: white;
+        font-size: 16px;
+      }
+    }
+  }
+  .btn-carousel {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #ffc222 !important;
+    border-radius: 50%;
+  }
+  .carousel-item {
+    max-width: 100%;
+  }
+  .slide-content {
+    
+    .btn:hover {
+      background-color: white !important;
+    }
+    line-height: 50px;
+    h1 {
+      font-weight: 900;
+      font-size: 70px;
+      @media (max-width: 1031px) {
+        font-size: 50px;
+      }
+      @media (max-width: 967px) {
+        font-size: 37px;
+      }
+    }
+    button {
+      @media (max-width: 1031px) {
+       margin-top: 20px !important;
+      }
+    }
+    .fresh {
+      @media (max-width: 1031px) {
+        font-size: 40px !important;
+      }
+      @media (max-width: 967px) {
+        font-size: 34px !important;
+      }
+    }
+    color: #fece3d;
+
+
+    .contact {
+      margin-top: 40px;
+      gap: 22px;
+      .contact-number {
+        line-height: 20px;
+      }
+      span {
+        font-size: 15px;
+      }
+      p {
+        font-weight: 700;
+      }
+      i {
+        color: white;
+        background-color: #00a149;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
+
+    span {
+      color: white;
+      font-size: 50px;
+    }
+  }
+  .carousel-inner {
+    .carousel {
+      @media (max-width: 768px) {
+        .slide-content-container {
+          padding-top: 130px;
+        }
+      }
+    }
+  }
+}
+
+// MAIN
+.menu {
+  .btn {
+    width: 140px;
+  }
+  border: none !important;
+  color: white;
+  border-radius: 30px;
+  .menu-content-container {
+    padding: 30px;
+  }
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid black;
+  height: 40vh;
+  img {
+    max-width: 100%;
+    position: absolute;
+    right: -50px;
+    top: 40px;
+    @media (max-width: 1400px) {
+      right: -100px;
+      top: 30px;
+    }
+    @media (max-width: 1200px) {
+      right: -150px;
+      top: 20px;
+    }
+    @media (max-width: 767px) {
+      right: -80px;
+      top: 30px;
+    }
+  }
+}
+
+// ORDER
+.order-container {
+  p {
+    color: white;
+    span {
+      color: #fece3d;
+      font-weight: 700;
+    }
+  }
+  .btn {
+    width: 230px;
+    font-size: 14px;
+    @media (max-width: 991px) {
+      width: 100% !important;
+    }
+  }
+  .order {
+    background-color: #00a149;
+    height: 40vh;
+    border-radius: 30px;
+    padding: 30px;
+    @media (max-width: 767px) {
+      height: auto !important;
+    }
+    .btn-container {
+      text-align: center;
+    }
+  }
+  form {
+    width: 100%;
+  }
+  input {
+    background-color: #00a149;
+
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(204, 255, 226, 0.5);
+    color: white;
+    padding: 12px 20px 12px 20px;
+    width: 100%;
+  }
+}
+
+// BUTTON
+.btn {
+  background-color: #ffc222 !important;
+  width: 170px;
+  height: 50px;
+  font-weight: 700 !important;
+}
+
+// HOT-FRESH
+.hot-fresh {
+  .card {
+    .card-content {
+      h5 {
+        font-size: 15px;
+        font-weight: 800;
+      }
+      p {
+        color: #808080;
+      }
+      span {
+        color: #fece3d;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      .bottom-part {
+        i {
+          background-color: #fece3d;
+          border-radius: 50%;
+          width: 43px;
+          height: 43px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      padding: 30px;
+      .stars {
+        margin-bottom: 12px;
+        i {
+          color: #fece3d;
+        }
+      }
+    }
+  }
+}
+
+// POPO'S-MENU
+.our-menu {
+  .title {
+    @media (max-width: 401px) {
+      text-align: center;
+    }
+    p {
+      font-family: "Norican", cursive;
+      color: #fece3d;
+      font-size: 45px;
+      margin-bottom: -15px;
+    }
+    h1 {
+      color: white;
+      font-weight: 700;
+      font-size: 45px;
+      margin-bottom: -15px;
+    }
+  }
+  background-image: url("https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_bg1.jpg");
+  height: auto;
+  .our-menu-container {
+    height: auto;
+    @media (max-width: 450px) {
+      padding: 30px !important;
+    }
+  }
+
+  .combo-content {
+    width: 100%;
+    .name-price {
+      border-bottom: 1px dotted #808080;
+    }
+  }
+  .special-combos {
+    background-color: white;
+    padding: 35px;
+    @media (max-width: 405px) {
+      padding: 20px !important;
+    }
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    p {
+      color: #808080;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    span {
+      font-family: "Norican", cursive;
+      font-size: 32px;
+    }
+
+    .combos {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .name-price {
+        h4 {
+          font-size: 16px;
+          font-weight: 800;
+        }
+        p {
+          color: #fece3d;
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
